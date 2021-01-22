@@ -1,20 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CheckAnswer : MonoBehaviour
-{
-    public string chosenAnswer = "";
-    public string actualAnswer = "";
-    public bool readyForAnswer = false;
-    // Update is called once per frame
-    void Update()
-    {
-        if (readyForAnswer) {
-            Debug.Log("Ready for answer.");
-            readyForAnswer = false;
-
-
-        }
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9703eb6ad0282809b6747e05d9f7405e85e6d6c49bbdab32008bc14716b73fbe
+size 433

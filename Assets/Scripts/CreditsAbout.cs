@@ -1,30 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CreditsAbout : MonoBehaviour
-{
-    public GameObject creditsPanel;
-    public GameObject aboutPanel;
-
-    public void clickCredit()
-    {
-        creditsPanel.gameObject.SetActive(true);
-    }
-
-    public void closeCredit()
-    {
-        creditsPanel.gameObject.SetActive(false);
-
-    }
-
-    public void clickAbout()
-    {
-        aboutPanel.gameObject.SetActive(true);
-    }
-
-    public void closeAbout()
-    {
-        aboutPanel.gameObject.SetActive(false);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:84e090b2387e67eeb5241e8616e79fb7a339ffcf87f0679f32f86bb90b89b225
+size 564

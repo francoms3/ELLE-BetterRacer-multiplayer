@@ -1,26 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
-
-public class FloatingJoystick : Joystick
-{
-    protected override void Start()
-    {
-        base.Start();
-        background.gameObject.SetActive(false);
-    }
-
-    public override void OnPointerDown(PointerEventData eventData)
-    {
-        background.anchoredPosition = ScreenPointToAnchoredPosition(eventData.position);
-        background.gameObject.SetActive(true);
-        base.OnPointerDown(eventData);
-    }
-
-    public override void OnPointerUp(PointerEventData eventData)
-    {
-        background.gameObject.SetActive(false);
-        base.OnPointerUp(eventData);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5ad78e09d6f87064358d91ca37b7ac5daa9546c62b7c8215a3c34def98251a73
+size 720

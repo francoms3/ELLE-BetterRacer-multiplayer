@@ -1,16 +1,3 @@
-%YAML 1.1
-%TAG !u! tag:unity3d.com,2011:
---- !u!134 &13400000
-PhysicMaterial:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_Name: B
-  dynamicFriction: .5
-  staticFriction: .800000012
-  bounciness: 0
-  frictionCombine: 0
-  bounceCombine: 0
-  frictionDirection2: {x: 0, y: 0, z: 0}
-  dynamicFriction2: 0
-  staticFriction2: 0
+version https://git-lfs.github.com/spec/v1
+oid sha256:b65ce431f8fe9b4ac061ff08fa41eeceee170b567a12a44fc579f3cc9da7b76f
+size 372

@@ -1,16 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class JoystickPlayerExample : MonoBehaviour
-{
-    public float speed;
-    public VariableJoystick variableJoystick;
-    public Rigidbody rb;
-
-    public void FixedUpdate()
-    {
-        Vector3 direction = Vector3.forward * variableJoystick.Vertical + Vector3.right * variableJoystick.Horizontal;
-        rb.AddForce(direction * speed * Time.fixedDeltaTime, ForceMode.VelocityChange);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dbb6b6023f726bad7208b01539b254cda21df08b52dadb0eab7d15e6120e7440
+size 497

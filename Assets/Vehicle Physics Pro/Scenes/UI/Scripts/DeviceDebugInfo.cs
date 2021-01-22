@@ -1,28 +1,3 @@
-﻿//--------------------------------------------------------------
-//      Vehicle Physics Pro: advanced vehicle physics kit
-//          Copyright © 2011-2019 Angel Garcia "Edy"
-//        http://vehiclephysics.com | @VehiclePhysics
-//--------------------------------------------------------------
-
-// DevideDebugInfo: displays the raw values received from the device in runtime
-
-
-using UnityEngine;
-using UnityEngine.UI;
-using EdyCommonTools;
-
-
-namespace VehiclePhysics.UI
-{
-
-public class DeviceDebugInfo : MonoBehaviour
-	{
-	public VehicleBase vehicle;
-
-	public Text axis1;
-	public Text axis2;
-	public Text pov1;
-	public Text pov2;
-	public Text buttons;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:56ce888c2340560cc45f96aa6e7d559f81cd90a86e6403e1c771ef413c237e81
+size 660

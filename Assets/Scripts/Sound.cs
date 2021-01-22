@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Sound : MonoBehaviour
-{
-    AudioSource myAudio;
-    // Start is called before the first frame update
-    void Start()
-    {
-        myAudio = GetComponent<AudioSource>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void stopMusic()
-    {
-        myAudio.Stop();
-    }
-
-    public void playMusic()
-    {
-        myAudio.Play();
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:58845c338e03ef6f2122b567c562b19112593f32f55bcd7d7d14534cff69a64f
+size 485

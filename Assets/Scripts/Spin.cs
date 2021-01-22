@@ -1,23 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-
-public class Spin : MonoBehaviour
-{
-    public GameObject car;
-    public CarBehaviour cb;
-    public GameObject question;
-    public Text questionText;
-    public GameObject destroyChoice;
-
-    // Start is called before the first frame update
-    void OnTriggerEnter(Collider other)
-    {
-        car = GameObject.Find("/Vehicles/SportsCar");
-        cb = car.GetComponent<CarBehaviour>();
-        cb.TriggerDamageOn();
-        destroyChoice.SetActive(false);
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:618d5ba325a946000ec508deff7c547ac39e27a9990d3d90438805f33b343d93
+size 575

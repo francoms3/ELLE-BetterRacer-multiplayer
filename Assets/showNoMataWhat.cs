@@ -1,18 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
-
-public class showNoMataWhat : MonoBehaviour
-{
-    public GameObject question;
-    public Text questionText;
-
-    void OnTriggerEnter(Collider other)
-    {
-        question = GameObject.Find("/Canvas/Question");
-        questionText = question.GetComponent<Text>();
-        questionText.text = "Right Answer: " + GameManager.correctAnswerToShow;
-
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2b4f2c8bfc181edd0487e14baf79a9aa9d45d4318251ae298a437f5c15c94929
+size 459

@@ -1,36 +1,3 @@
-------------------------------------------------------
-TINY FANTASY ICONS
-------------------------------------------------------
-
-Thanks for purchasing Tiny Fantasy Icons from the Unity Asset Store.
-Don't forget to leave me a review! :) Hopefully a nice one...
-
-If you need 3d models for this icon collection you can grab it here:
-
-https://assetstore.unity.com/packages/3d/environments/fantasy/tiny-fantasy-loot-53326
-
-
-Also, if you need a dungeon for this treasures, this has the same visual style:
-	
-Tiny Dungeon
-https://assetstore.unity.com/packages/3d/environments/dungeons/tiny-dungeons-48170
-
-Tiny Lair
-https://assetstore.unity.com/packages/3d/environments/dungeons/tiny-lair-88355
-
-
-
-If you have any questions or feedback, you can contact me at :
-
-	* E-mail: vespawarrior3d@gmail.com
-	* Twitter: @Vespawarrior
-
-
-------------------------------------------------------
-Release notes:
-------------------------------------------------------
-
-
-V 1.0
-	- Initial release
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:948450107fa0e55a6df9fea186be8e81e5f38b99a0289d1006fc0f8b7729674f
+size 1008

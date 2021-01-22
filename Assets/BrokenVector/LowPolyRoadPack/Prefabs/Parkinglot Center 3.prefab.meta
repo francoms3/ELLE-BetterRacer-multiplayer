@@ -1,15 +1,3 @@
-fileFormatVersion: 2
-guid: baf7bb04094c1fe4d994d728999eae1b
-labels:
-- street
-- road
-- freeway
-- low-poly
-- lowpoly
-- parkinglot
-timeCreated: 1468486761
-licenseType: Store
-NativeFormatImporter:
-  userData: 
-  assetBundleName: 
-  assetBundleVariant: 
+version https://git-lfs.github.com/spec/v1
+oid sha256:ce121402459460d3b5491cb8a80b271869a668970929efce72a55d01926fad0f
+size 264

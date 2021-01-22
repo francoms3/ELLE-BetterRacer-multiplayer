@@ -1,32 +1,3 @@
-Configuring Project Settings
-
-It is recommended to use Linear color space (Project Settings > Player > Other Settings).
-
-Specific settings files are provided in the folder VPP Project Settings that may be imported
-individually. Each file overrides the project’s settings in the corresponding section.
-
-
-Project Settings - Input (Required)
-
-  Required for some features to work correctly. Alternatively, you could manually
-  Configure the input axes Horizontal, Vertical, Fire2 and Fire3 as described here:
-
-  https://vehiclephysics.com/components/vehicle-input/#vpstandardinput
-
-
-Project Settings - Physics
-
-  Physics settings used in VPP. Note that importing this file overrides your project’s Layer
-  Collision Matrix.
-
-
-Project Settings - Quality
-
-  Enhances the visual quality of the shadows and textures in large scenarios.
-
-
-Project Settings - Tags And Layers
-
-  VPP uses “User Layer 8” as “Vehicles” for visibility and reflection probes. If you’re
-  already using that layer, have in mind that VPP also uses it.
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:d216f06b513fb43fddf433fbd067ab1258d356e06048436ca2b9fce4f143682f
+size 1066

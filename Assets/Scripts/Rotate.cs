@@ -1,29 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Rotate : MonoBehaviour
-{
-    
-    // Update is called once per frame
-    void Update()
-    {   
-        if (GameManager.enableSpin)
-            transform.Rotate(new Vector3(0f, 1f, 0f));
-        else
-        {
-            transform.rotation = Quaternion.Euler(0, 0, 0);
-        }
-    }
-
-    public void enableRotation()
-    {
-        GameManager.enableSpin = true;
-    }
-
-    public void disableRotation()
-    {
-        Debug.Log("off");
-        GameManager.enableSpin = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7f6f1fed05649a128a1b7348dc71465f26e7e828af56135a25d9866c6125d27a
+size 582

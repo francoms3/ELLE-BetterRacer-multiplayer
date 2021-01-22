@@ -1,35 +1,3 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class ChoosePowerUp : MonoBehaviour
-{
-    public int chosenPowerUp;
-    public GameObject destroyChoice;
-    public GameObject car;
-    public CarBehaviour cb;
-    public GameObject powerupArray;
-
-
-    void OnTriggerEnter(Collider other)
-    {
-        car = GameObject.Find("/Vehicles/SportsCar");
-        cb = car.GetComponent<CarBehaviour>();
-
-
-        powerupArray = GameObject.Find("/Canvas/PowerupArray");
-        powerupArray.transform.GetChild(0).gameObject.SetActive(false);
-        powerupArray.transform.GetChild(1).gameObject.SetActive(false);
-        powerupArray.transform.GetChild(2).gameObject.SetActive(false);
-        powerupArray.transform.GetChild(chosenPowerUp).gameObject.SetActive(true);
-        cb.SetPowerup(chosenPowerUp + 1);
-        Destroy(destroyChoice);
-
-    }
-
-    //// Update is called once per frame
-    //void Update()
-    //{
-
-    //}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:c8a089c1f76a791a0b47d4a72b5edde290703a4520d175b4c5a49128641c231e
+size 962

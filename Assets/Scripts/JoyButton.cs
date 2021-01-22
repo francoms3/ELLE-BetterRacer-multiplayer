@@ -1,31 +1,3 @@
-﻿using UnityEngine;
-using UnityEngine.EventSystems;
-
-
-public class JoyButton : MonoBehaviour, IPointerUpHandler, IPointerDownHandler
-{
-    [HideInInspector]
-    public bool Pressed;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        Pressed = true;
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        Pressed = false;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:f08469bd79ec985888b50845fb079dde70f45a21dbb76adc2c89f0ca50e398bd
+size 538
